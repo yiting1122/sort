@@ -20,9 +20,8 @@ public class SelectSort {
 					pos = j;
 				}
 			}
-				a[pos] = a[i];
-				a[i] = temp;
-
+			a[pos] = a[i];
+			a[i] = temp;
 
 		}
 		return a;
